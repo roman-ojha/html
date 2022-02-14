@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function showImage(event) {
+        console.log("Hello");
+        var image = document.getElementById("image");
+        image.src = URL.createObjectURL(event.target.files[0]);
+      }
+    </script>
+  </head>
+  <body>
+    <input
+      type="file"
+      onchange="showImage(event)"
+      accept=".jpg, .png, .jpeg, .gif, .bmp, .tif, .tiff|image/*"
+    />
+    <!-- here 'accept' will filter what king of file you want to select and only show that kind of file -->
+    <img id="image" src="" alt="img" width="500px" height="300px" />
+  </body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            practice 02
+        </title>
+        <meta name="Description" content="this is the practice page"/>
+        <meta name="keyword" content="practice,roman,ojha"/>
+        <meta name="robot" content="index,follow"/>
+        <link rel="canonical" href="Practice_01.html"/>
+        <!-- <style>
+            body{
+                background-color:lightblue;
+            }
+        </style> -->
+        <link rel="stylesheet" href="style_01.css" type="text/css">
+        <!-- <script>
+            alert("hellow")
+        </script> -->
+        <script src="js/script.js"></script>
+        <noscript></noscript>
+    </head>
+    <body>
+        <div style="background-color:lightblue;">
+            <h1 style="color:darkgreen;"><center><em>Practice 03</em></center></h1>
+        </div>
+        <span style="border:1px solid lightgreen;">
+            <b style="color:darkred;">Title: Div & Span</b>
+        </span><br>
+        <!-- <iframe src="https://www.indiatoday.in/news.html"></iframe> -->
+        <iframe src="Picture/image_02.jpg"></iframe>
+        <iframe src="Pdf/Pdf 01.pdf"></iframe>
+        <object data="Pdf/Pdf 01.pdf" type="application/pdf"></object>
+        <embed src="Pdf/Pdf 01.pdf" type="application/pdf"><br>
+        <h3>Audio:</h3>
+        <audio controls>
+            <source src="Audio/Audio 01.mp3" type="audio/mpeg">
+        </audio><br>
+        <h3>Video:</h3>
+        <video controls>
+            <source src="Video/The Breakup Song - Ae Dil Hai Mushkil _ Ranbir _ Anushka _ Pritam _ Arijit.mp4" type="video/mp4">
+        </video>
+        <p>Html entities and symbols:</p>
+        &#60;div&#62;<br>
+        &copy;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &#8508;<br>
+        &#128516;<br>
+        &alpha;
+        &pi;<br>
+        <img src="Picture/image_02.jpg" usemap="#product">
+        <map name="product">
+            <area target="_blank" alt="laptop" title="laptop" href="https://www.amazon.com/s?k=laptop&amp;ref=nb_sb_noss_2" coords="285,379,416,103,809,277,690,563" shape="poly">
+            <area target="_blank" alt="mobile" title="mobile" href="https://www.amazon.com/s?k=smart+phone&amp;ref=nb_sb_noss_2" coords="528,90,572,0,740,75,698,162" shape="poly">
+            <area target="_blank" alt="watch" title="watch" href="https://www.amazon.com/s?k=watch&amp;ref=nb_sb_noss_1" coords="841,292,905,316,764,604,711,580" shape="poly">
+        </map><br>
+        <form>
+            <input type="text" placeholder="roman"><br>
+            <input type="text" readonly value="roman"><br>
+            <input type="text" disabled value="roman"><br>
+            <input type="text" size="50" maxlength="20"><br>
+            <input type="password" required>
+            <input type="range" min="10" max="20">
+            <input type="button">
+            <input type="submit" value="Roman">
+            <input type="number" step="5" min="10" max="20">
+            <input type="number" min="10" max="20">
+            <input type="email">
+            <input type="url">
+            <input type="datetime-local">
+            <input type="date">
+            <input type="time">
+            <input type="search">
+        </form>
+        <form>
+        <textarea placeholder="Enter Description" rows="10" cols="40"></textarea><br>
+        </form>
+        <form>
+            <select size="5">
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+            </select>
+        </form>
+        <form>
+            <select>
+                <optgroup label="number">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                </optgroup>
+                <optgroup label="charecter">
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
+                    <option>G</option>
+                    <option>H</option>
+                    <option>I</option>
+                    <option>J</option>
+                </optgroup>
+            </select>
+        </form><br>
+        <form>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender"value="female">Female<br>
+            <input type="radio" name="gender" value="others">Others<br>
+        </form>
+        <form>
+            <input type="checkbox" name="sports" >cricket<br>
+            <input type="checkbox" name="sports" >football<br>
+            <input type="checkbox" name="sports" >hockey<br>
+            <!--in checkbox also after giving same name we can select multiple button-->
+        </form><br>
+        
+        <form>
+            <input type="search" placeholder="Search..." size="50" list="datalist">
+            <datalist id="datalist">
+                <option value=1></option>
+                <option value=2></option>
+                <option value=3></option>
+                <option value=4></option>
+                <option value=5></option>
+                <option value=6></option>
+                <option value=7></option>
+            </datalist><br><br>
+            <form>
+                <fieldset>
+                    <legend>roman</legend>
+                <label for="fname">First Name</label>
+                <input type="text" name="first_name" id="fname"><br><br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="last_name" id="lname">
+                </fieldset>
+            </form>
+        </form>
+    </body>
+</html>
